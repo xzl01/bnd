@@ -13,6 +13,7 @@
         <javac
                 destdir="bootstrap/build"
                 classpath="${compileClasspath}"
+                release="${javac.release}"
                 encoding="UTF-8"
                 debug="true">
             <src path="aQute.libg/src"/>
